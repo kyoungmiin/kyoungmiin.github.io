@@ -1,14 +1,14 @@
 @mixin styles {
   /* Framework color */
-  --main-bg: white;
+  --main-bg: #ece7e2;
   --mask-bg: #c1c3c5;
-  --main-border-color: #f3f3f3;
+  --main-border-color: #4a7766;
 
   /* Common color */
-  --text-color: #34343c;
+  --text-color: #2a2a2a;
   --text-muted-color: #757575;
   --text-muted-highlight-color: inherit;
-  --heading-color: #2a2a2a;
+  --heading-color: #294238;
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
   --blockquote-text-color: #757575;
@@ -33,22 +33,22 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
-  --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
+  --site-title-color: #ece7e2;
+  --site-subtitle-color: #ece7e2f0;
+  --sidebar-bg: #4a7766;
   --sidebar-border-color: #efefef;
-  --sidebar-muted-color: #545454;
-  --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
-  --sidebar-btn-bg: white;
-  --sidebar-btn-color: #8e8e8e;
+  --sidebar-muted-color: #ece7e292;
+  --sidebar-active-color: #ece7e2;
+  --sidebar-hover-bg: #294238;
+  --sidebar-btn-bg: #ece7e2;
+  --sidebar-btn-color: #4a7766;
   --avatar-border-color: white;
 
   /* Topbar */
-  --topbar-bg: rgb(255, 255, 255, 0.7);
-  --topbar-text-color: rgb(78, 78, 78);
+  --topbar-bg: #ece7e2;
+  --topbar-text-color: #4a7766;
   --search-border-color: rgb(240, 240, 240);
-  --search-icon-color: #c2c6cc;
+  --search-icon-color: #4a7766;
   --input-focus-border-color: #b8b8b8;
 
   /* Home page */
@@ -61,8 +61,8 @@
   --toc-popup-border-color: lightgray;
   --btn-share-color: gray;
   --btn-share-hover-color: #0d6efd;
-  --card-bg: white;
-  --card-hovor-bg: #e2e2e2;
+  --card-bg: #fff9f3;
+  --card-hovor-bg: rgba(226, 226, 226, 0.606);
   --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
     rgba(211, 209, 209, 0.15) 0 0 0 1px;
   --footnote-target-bg: lightcyan;
