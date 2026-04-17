@@ -1,0 +1,402 @@
+{
+  "profile": {
+    "name": "Kyoungmin Lee",
+    "role": "Ph.D. Student, DGIST",
+    "location": "Daegu, Korea",
+    "summary": "Hi! I am a Ph.D. student at DGIST Computer Vision Lab, advised by Prof. Sunghoon Im. My research focuses on generative models for personalized and consistent visual generation and editing, as well as vision-language models. I'm interested in making generative models more expressive and applicable to real-world creative applications!",
+    "image": "assets/personal/KyoungminLEE_portrait.jpg",
+    "imageAlt": "Portrait placeholder for Kyoungmin Lee",
+    "socialLinks": [
+      {
+        "label": "CV",
+        "url": "assets/personal/CV_KyoungminLEE.pdf",
+        "icon": "emoji:📄"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kyoungminlee00/",
+        "icon": "https://www.google.com/s2/favicons?domain=linkedin.com&sz=32"
+      },
+      {
+        "label": "Scholar",
+        "url": "https://scholar.google.com/citations?user=Rfhy4pcAAAAJ&hl=en",
+        "icon": "https://www.google.com/s2/favicons?domain=scholar.google.com&sz=32"
+      },
+      {
+        "label": "Email",
+        "url": "mailto:kyoungmin@dgist.ac.kr",
+        "icon": "emoji:📧"
+      }
+    ]
+  },
+  "about": {
+    "text": "Hello, I am Kyoungmin Lee, a Ph.D. student at DGIST, advised by Prof. Sunghoon Im. My research focuses on generative models for personalized and consistent visual generation and editing, and vision-language models.",
+    "quickFacts": [
+      "Ph.D. Student in ISAI at DGIST",
+      "Focus: Personalized and Consistent Generation",
+      "Vision-Language Models",
+      "Reviewer: AAAI, Neurocomputing"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Ph.D. in Interdisciplinary Studies of Artificial Intelligence (ISAI)",
+      "school": "DGIST, Daegu, Korea 🇰🇷",
+      "logo": "assets/personal/logo_dgist.png",
+      "logoAlt": "DGIST logo",
+      "period": "Sep. 2025 - Present"
+    },
+    {
+      "degree": "M.S. in Interdisciplinary Studies of Artificial Intelligence (ISAI)",
+      "school": "DGIST, Daegu, Korea 🇰🇷",
+      "logo": "assets/personal/logo_dgist.png",
+      "logoAlt": "DGIST logo",
+      "advisor": "Sunghoon Im",
+      "period": "Sep. 2023 - Aug. 2025"
+    },
+    {
+      "degree": "B.S. in Convergence Engineering",
+      "school": "DGIST, Daegu, Korea 🇰🇷",
+      "logo": "assets/personal/logo_dgist.png",
+      "logoAlt": "DGIST logo",
+      "period": "Feb. 2019 - Aug. 2023"
+    },
+    {
+      "degree": "Student Exchange Program in Telecommunications",
+      "school": "INSA Lyon, Lyon, France 🇫🇷",
+      "logo": "assets/personal/logo_insalyon.png",
+      "logoAlt": "INSA Lyon logo",
+      "period": "Jan. 2022 - Feb. 2023"
+    },
+    {
+      "degree": "Summer Session",
+      "school": "UC Berkeley, Berkeley, United States 🇺🇸",
+      "logo": "assets/personal/logo_berkeley.png",
+      "logoAlt": "UC Berkeley logo",
+      "period": "Jun. 2019 - Aug. 2019"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Undergraduate Intern",
+      "org": "DGIST, Korea",
+      "team": "Computer Vision Lab",
+      "logo": "assets/personal/logo_dgist.png",
+      "logoAlt": "DGIST logo",
+      "period": "Mar. 2023 - Aug. 2023",
+      "description": "Participated in computer vision research projects and model development for image understanding tasks."
+    },
+    {
+      "role": "Research Project",
+      "org": "INSA Lyon, France",
+      "team": "LIRIS",
+      "logo": "assets/personal/logo_insalyon.png",
+      "logoAlt": "INSA Lyon logo",
+      "period": "Oct. 2022 - Feb. 2023",
+      "description": "Worked on image and information systems research as part of an international collaboration."
+    },
+    {
+      "role": "Undergraduate Group Research Program",
+      "org": "DGIST, Korea",
+      "team": "Department of Energy Science and Engineering",
+      "logo": "assets/personal/logo_dgist.png",
+      "logoAlt": "DGIST logo",
+      "period": "Feb. 2021 - Feb. 2022",
+      "description": "Conducted team-based undergraduate research with emphasis on experimentation and technical reporting."
+    },
+    {
+      "role": "Undergraduate Intern",
+      "org": "DGIST, Korea",
+      "team": "Photo and Electrochemical Materials Science and Engineering Lab",
+      "logo": "assets/personal/logo_dgist.png",
+      "logoAlt": "DGIST logo",
+      "period": "Jun. 2020 - Aug. 2020",
+      "description": "Supported lab research activities and technical experiments during summer internship."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Personalized and Consistent Image Generation",
+      "org": "DGIST, Independent Research",
+      "description": "Developed a training-free, scale-wise autoregressive framework for personalized text-to-image generation, improving style and identity consistency across diverse scenarios with fast inference.",
+      "tags": ["Personalization", "Text-to-Image", "Autoregressive"],
+      "links": [
+        {
+          "label": "Timeline",
+          "url": "https://www.dgist.ac.kr/"
+        }
+      ],
+      "period": "Jul. 2025 - Present"
+    },
+    {
+      "title": "Multi prompt-based image generation",
+      "org": "NIPA, Innovation Hub AI Data Convergence Project",
+      "description": "Developed text-to-image generation models with a focus on efficient sampling in diffusion models and improved the quality of text-based image editing.",
+      "tags": ["Diffusion", "Sampling", "Image Editing"],
+      "links": [
+        {
+          "label": "Program",
+          "url": "https://www.nipa.kr/"
+        }
+      ],
+      "period": "Jul. 2024 - Present"
+    },
+    {
+      "title": "Stylistic Image Generation and Editing",
+      "org": "DGIST, Independent Research",
+      "description": "Developed text- and image-guided methods for personalized and style-consistent image generation with strong generalization across diverse domains.",
+      "tags": ["Style Transfer", "Personalization", "Generation"],
+      "links": [
+        {
+          "label": "Research",
+          "url": "https://www.dgist.ac.kr/"
+        }
+      ],
+      "period": "Jul. 2023 - Present"
+    },
+    {
+      "title": "Video understanding and Video retrieval",
+      "org": "KETI, Development of Object Identification Software for Metaverse Streaming Services",
+      "description": "Worked on video data collection and scene-level video understanding, as well as text-to-video retrieval tasks.",
+      "tags": ["Video Retrieval", "Scene Understanding", "Data"],
+      "links": [
+        {
+          "label": "KETI",
+          "url": "https://www.keti.re.kr/"
+        }
+      ],
+      "period": "Sep. 2023 - Dec. 2023"
+    },
+    {
+      "title": "Video Tagging and Video retrieval",
+      "org": "10kM, Industry-University-Linked Project",
+      "description": "Developed CLIP-based video tagging, prompt-engineered video captioning, and word-based video retrieval methods.",
+      "tags": ["CLIP", "Captioning", "Retrieval"],
+      "links": [
+        {
+          "label": "Project",
+          "url": "https://example.com"
+        }
+      ],
+      "period": "Mar. 2023 - Aug. 2023"
+    }
+  ],
+  "news": [
+    {
+      "year": 2026,
+      "title": "[Feb 2026] Two papers have been accepted to CVPR 2026. 🎉"
+    },
+    {
+      "year": 2026,
+      "title": "[Feb 2026] Our AI-Created Artworks are being exhibited at Daegu Kansong Art Museum. 🎨"
+    },
+    {
+      "year": 2026,
+      "title": "[Jan 2026] Our team received the Encouragement Prize from the 32nd Samsung HumanTech Paper Award. 🏆"
+    },
+    {
+      "year": 2025,
+      "title": "[Nov 2025] An AI Art Exhibition Showcasing Our Team's Research at the DGIST Gallery. 🎨"
+    },
+    {
+      "year": 2025,
+      "title": "[Nov 2025] One paper has been accepted to AAAI 2026 Oral. 🎉"
+    },
+    {
+      "year": 2025,
+      "title": "[Feb 2025] One paper has been accepted to CVPR 2025 highlight. 🎉"
+    },
+    {
+      "year": 2024,
+      "title": "[Oct 2024] One paper has been accepted to ACCV 2024. 🎉"
+    },
+    {
+      "year": 2024,
+      "title": "[Feb 2024] Our team received the Encouragement Prize from the 30th Samsung HumanTech Paper Award. 🏆"
+    }
+  ],
+  "publications": [
+    {
+      "year": 2026,
+      "title": "A Training-Free Style-aligned Image Generation with Scale-wise Autoregressive Model",
+      "authors": "Jihun Park*, Jongmin Gim*, Kyoungmin Lee*, Minseok Oh, Minwoo Choi, Jaeyeul Kim, Woo Chool Park, and Sunghoon Im†.",
+      "venue": "Preprint",
+      "image": "assets/publications/StyleAligned.png",
+      "imageAlt": "Style-aligned paper preview",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/pdf/2504.06144"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "title": "A Training-Free Style-Personalization via SVD-Based Feature Decomposition",
+      "authors": "Kyoungmin Lee*, Jihun Park*, Jongmin Gim*, Wonhyeok Choi, Kyumin Hwang, Jaeyeul Kim, and Sunghoon Im†.",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Jun 2026",
+      "image": "assets/publications/cvpr26_SVD.png",
+      "imageAlt": "CVPR 2026 SVD-based personalization paper preview",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/pdf/2507.04482"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "title": "TaskForce: Cooperative Multi-agent Reinforcement Learning for Multi-task Optimization",
+      "authors": "Wonhyeok Choi, Kyumin Hwang, Jihun Park, Kyoungmin Lee, Seunghun Lee, Jaeyeul Kim, Minwoo Choi, and Sunghoon Im†.",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Jun 2026",
+      "image": "assets/publications/cvpr26_TaskForce.png",
+      "imageAlt": "CVPR 2026 TaskForce paper preview",
+      "links": []
+    },
+    {
+      "year": 2026,
+      "title": "Infinite-Story: A Training-Free Consistent Text-to-Image Generation",
+      "authors": "Jihun Park*, Kyoungmin Lee*, Jongmin Gim*, Hyeonseo Jo, Minseok Oh, Wonhyeok Choi, Kyumin Hwang, Jaeyeul Kim, Minwoo Choi, and Sunghoon Im†.",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI (Oral Presentation)), Feb 2026",
+      "image": "assets/publications/aaai26_InfiniteStory.png",
+      "imageAlt": "AAAI 2026 Infinite-Story paper preview",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/pdf/2511.13002"
+        },
+        {
+          "label": "Project",
+          "url": "https://jihun999.github.io/projects/Infinite-Story/"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Style-Editor: Text-driven object-centric style editing",
+      "authors": "Jihun Park*, Jongmin Gim*, Kyoungmin Lee*, Seunghun Lee, and Sunghoon Im†.",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR (Highlight, Top 3.7%)), Jun 2025",
+      "image": "assets/publications/cvpr25_StyleEditor.png",
+      "imageAlt": "CVPR 2025 Style-Editor paper preview",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Park_Style-Editor_Text-driven_Object-centric_Style_Editing_CVPR_2025_paper.html"
+        },
+        {
+          "label": "Project",
+          "url": "https://jihun999.github.io/projects/Style-Editor/"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "title": "Content-Adaptive Style Transfer: A Training-Free Approach with VQ Autoencoders",
+      "authors": "Jongmin Gim*, Jihun Park*, Kyoungmin Lee*, and Sunghoon Im†.",
+      "venue": "Asian Conference on Computer Vision (ACCV), Dec 2024",
+      "image": "assets/publications/accv24_CAST.png",
+      "imageAlt": "ACCV 2024 CAST paper preview",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://openaccess.thecvf.com/content/ACCV2024/html/Gim_Content-Adaptive_Style_Transfer__A_Training-Free_Approach_with_VQ_Autoencoders_ACCV_2024_paper.html"
+        }
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Encouragement Prize, 32nd HumanTech Paper Awards",
+      "meta": "Samsung Electronics Co., Ltd. · Jan. 2026"
+    },
+    {
+      "title": "Encouragement Prize, 30th HumanTech Paper Awards",
+      "meta": "Samsung Electronics Co., Ltd. · Jan. 2024"
+    },
+    {
+      "title": "Second Prize, Lab Startup 2021",
+      "meta": "National Research Foundation of Korea · Feb. 2021"
+    },
+    {
+      "title": "Encouragement Prize, 8th University Students Capstone Design Award",
+      "meta": "Korean Society of Environmental Engineers · Nov. 2020"
+    },
+    {
+      "title": "First Prize, Daegu Gyeongbuk Ideathon",
+      "meta": "DGIST · May. 2020"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "AI-Created Artworks Exhibition",
+      "meta": "Daegu Kansong Art Museum · Feb. 2026 -- May. 2026",
+      "description": "Presented AI-generated reinterpretations of Miindo by Shin Yun-bok in the styles of Western masters (e.g., Rembrandt, Monet, Van Gogh), along with an interactive installation for visitor-driven image stylization.",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://kansong.org/daegu/index.do?ehi_id=ART_EHI_00000231&ehi_bgng_ymd=&ehi_end_ymd=&pathVal=now&ehi_type_dcd=ART_00007_02&menu_id=00004488&menu_link=/front/ehi/selectViewEhi.do&searchCondition=&searchKeyword=&searchCondition2=8&pageIndex=1"
+        }
+      ]
+    },
+    {
+      "title": "AI Art Exhibition",
+      "meta": "DGIST Gallery · Nov. 2025 -- Feb. 2026",
+      "description": "Organized and curated an exhibition presenting research outcomes.",
+      "links": [
+        {
+          "label": "Link",
+          "url": "https://curation.dgist.ac.kr/curation/p/cUuglc1MaUs2MU"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "title": "English",
+      "meta": "C1"
+    },
+    {
+      "title": "French",
+      "meta": "B1"
+    },
+    {
+      "title": "Korean",
+      "meta": "Native"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "description": "Python, C++, LaTeX"
+    },
+    {
+      "title": "Development",
+      "description": "PyTorch, TensorFlow"
+    },
+    {
+      "title": "Data Analysis",
+      "description": "NumPy, Pandas, scikit-learn"
+    },
+    {
+      "title": "Design",
+      "description": "Figma, Adobe Premiere Pro"
+    }
+  ],
+  "reviewer": [
+    {
+      "title": "Neurocomputing"
+    },
+    {
+      "title": "Association for the Advancement of Artificial Intelligence (AAAI)"
+    }
+  ],
+  "talks": [],
+  "contact": {
+    "text": "I am open to research collaborations and internship opportunities related to personalized generation and vision-language models.",
+    "email": "",
+    "location": "DGIST, Daegu, Korea",
+    "cvLabel": "Profile",
+    "cvUrl": "https://www.dgist.ac.kr/"
+  },
+  "footerLine": "Adapted from your original profile content with a structured single-page template."
+}
