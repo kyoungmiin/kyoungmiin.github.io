@@ -8,6 +8,21 @@
       name="description"
       content="Personal website template for researchers and builders."
     />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="build-version" content="__VERSION__" />
+    <script>
+      (function () {
+        var version = "__VERSION__";
+        try {
+          var url = new URL(window.location.href);
+          if (url.searchParams.get("v") === version) return;
+          url.searchParams.set("v", version);
+          window.location.replace(url.toString());
+        } catch (_) {}
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

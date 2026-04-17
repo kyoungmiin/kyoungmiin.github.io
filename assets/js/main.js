@@ -1,4 +1,18 @@
-const DATA_PATH = "assets/data/content.json";
+const ASSET_VERSION = (() => {
+  if (typeof window === "undefined") return "dev";
+
+  const script = document.querySelector('script[src*="assets/js/main.js"]');
+  if (!(script instanceof HTMLScriptElement)) return "dev";
+
+  try {
+    const scriptUrl = new URL(script.src, window.location.href);
+    return scriptUrl.searchParams.get("v") || "dev";
+  } catch (_) {
+    return "dev";
+  }
+})();
+
+const DATA_PATH = `assets/data/content.json?v=${encodeURIComponent(ASSET_VERSION)}`;
 
 function safeText(value, fallback = "") {
   return typeof value === "string" && value.trim().length > 0 ? value : fallback;
@@ -702,11 +716,11 @@ function setupPublicationImageLightbox() {
 function cleanupLegacyServiceWorkerAndCaches() {
   if (typeof window === "undefined") return;
 
-  const marker = "sw-cleanup-v1";
+  const marker = `sw-cleanup-${ASSET_VERSION}`;
   try {
-    if (window.sessionStorage.getItem(marker) === "done") return;
+    if (window.localStorage.getItem(marker) === "done") return;
   } catch (_) {
-    return;
+    // Storage access can fail in strict privacy contexts.
   }
 
   const tasks = [];
@@ -748,9 +762,9 @@ function cleanupLegacyServiceWorkerAndCaches() {
 
   Promise.all(tasks).finally(() => {
     try {
-      window.sessionStorage.setItem(marker, "done");
+      window.localStorage.setItem(marker, "done");
     } catch (_) {
-      return;
+      // Ignore storage failures and continue.
     }
 
     if (touched) {
