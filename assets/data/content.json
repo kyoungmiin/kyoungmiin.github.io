@@ -44,7 +44,7 @@
       "school": "KAIST, Daejeon, Korea 🇰🇷",
       "logo": "assets/personal/logo_kaist.png",
       "logoAlt": "KAIST logo",
-      "period": "Sep. 2025 - Present"
+      "period": "Sep. 2026 - Present"
     },
     {
       "degree": "M.S. in Interdisciplinary Studies of Artificial Intelligence (ISAI)",
@@ -184,6 +184,10 @@
   "news": [
     {
       "year": 2026,
+      "title": "[Aug 2026] One paper has been accepted to SIGGRAPH Asia 2026. 🎉"
+    },
+    {
+      "year": 2026,
       "title": "[Feb 2026] Two papers have been accepted to CVPR 2026. 🎉"
     },
     {
@@ -217,7 +221,7 @@
   ],
   "publications": [
     {
-      "year": 2026,
+      "year": 2025,
       "title": "A Training-Free Style-aligned Image Generation with Scale-wise Autoregressive Model",
       "authors": "Jihun Park*, Jongmin Gim*, Kyoungmin Lee*, Minseok Oh, Minwoo Choi, Jaeyeul Kim, Woo Chool Park, and Sunghoon Im†.",
       "venue": "Preprint",
@@ -231,6 +235,19 @@
       ]
     },
     {
+      "year": 2026,
+      "title": "CRAFT: Constrained Reward via Attention Fine-Tuning for Subject Personalization without Composed Targets",
+      "authors": "Jihun Park, Kyoungmin Lee, Jongmin Gim, Hyeonseo Jo, Jaeyeul Kim, Han Zou, Zhenpeng Zhan, Yan Zhang† and Sunghoon Im†.",
+      "venue": "ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia), Dec 2026",
+      "image": "assets/publications/sigasia26.png",
+      "imageAlt": "SIGGRAPH Asia 2026 paper preview",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/pdf/2507.04482"
+        }
+      ]
+    },    {
       "year": 2026,
       "title": "A Training-Free Style-Personalization via SVD-Based Feature Decomposition",
       "authors": "Kyoungmin Lee*, Jihun Park*, Jongmin Gim*, Wonhyeok Choi, Kyumin Hwang, Jaeyeul Kim, and Sunghoon Im†.",
