@@ -1,9 +1,9 @@
 {
   "profile": {
     "name": "Kyoungmin Lee",
-    "role": "Ph.D. Student, DGIST",
-    "location": "Daegu, Korea",
-    "summary": "Hi! I am a Ph.D. student at DGIST Computer Vision Lab, advised by Prof. Sunghoon Im. My research focuses on generative models for personalized and consistent visual generation and editing, as well as vision-language models. I'm interested in making generative models more expressive and applicable to real-world creative applications!",
+    "role": "Ph.D. Student, KAIST",
+    "location": "Daejeon, Korea",
+    "summary": "Hi! I am a Ph.D. student at KAIST Robotics and Vision Lab, advised by Prof. Sunghoon Im. My research focuses on generative models for personalized and consistent visual generation and editing, as well as vision-language models. I'm interested in making generative models more expressive and applicable to real-world creative applications!",
     "image": "assets/personal/KyoungminLEE_portrait.jpg",
     "imageAlt": "Portrait placeholder for Kyoungmin Lee",
     "socialLinks": [
@@ -24,15 +24,15 @@
       },
       {
         "label": "Email",
-        "url": "mailto:kyoungmin@dgist.ac.kr",
+        "url": "mailto:kyoungmin@kaist.ac.kr",
         "icon": "emoji:📧"
       }
     ]
   },
   "about": {
-    "text": "Hello, I am Kyoungmin Lee, a Ph.D. student at DGIST, advised by Prof. Sunghoon Im. My research focuses on generative models for personalized and consistent visual generation and editing, and vision-language models.",
+    "text": "Hello, I am Kyoungmin Lee, a Ph.D. student at KAIST, advised by Prof. Sunghoon Im. My research focuses on generative models for personalized and consistent visual generation and editing, and vision-language models.",
     "quickFacts": [
-      "Ph.D. Student in ISAI at DGIST",
+      "Ph.D. Student in GSCT at KAIST",
       "Focus: Personalized and Consistent Generation",
       "Vision-Language Models",
       "Reviewer: AAAI, Neurocomputing"
@@ -41,9 +41,9 @@
   "education": [
     {
       "degree": "Ph.D. in Interdisciplinary Studies of Artificial Intelligence (ISAI)",
-      "school": "DGIST, Daegu, Korea 🇰🇷",
-      "logo": "assets/personal/logo_dgist.png",
-      "logoAlt": "DGIST logo",
+      "school": "KAIST, Daejeon, Korea 🇰🇷",
+      "logo": "assets/personal/logo_kaist.png",
+      "logoAlt": "KAIST logo",
       "period": "Sep. 2025 - Present"
     },
     {
